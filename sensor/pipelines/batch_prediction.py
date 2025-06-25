@@ -68,7 +68,6 @@ def start_batch_prediction(input_file_path):
 
         # --- Plots ---
         import matplotlib.pyplot as plt
-        import os
         # Prediction distribution plot
         plt.figure(figsize=(6,4))
         df["cat_pred"].value_counts().plot(kind="bar")
